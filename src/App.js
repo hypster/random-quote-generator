@@ -63,7 +63,7 @@ class RandomQuoteComponent extends React.Component{
         return (
             <div className="container">
                 <div className="row justify-content-md-center">
-                    <div id="quote-box" className="col-5 card">
+                    <div id="quote-box" className="card">
                         <div className="card-body">
                             <p id="text">{this.state.quote.quote}</p>
                         </div>
